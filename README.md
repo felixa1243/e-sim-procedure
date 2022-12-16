@@ -18,6 +18,14 @@ sample request: </br>
     "password":"password",
     "passwordVerification":"password",
     "user":{
-        "fullname":"anjay",
+        "fullname":"fullname",
     }
-}`
+}
+`
+/api/auth/login
+`
+{
+    "username":"username",
+    "password":"password"
+}
+`
