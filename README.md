@@ -21,8 +21,9 @@ sample request: </br>
         "fullname":"fullname",
     }
 }
-`
-/api/auth/login
+`</br>
+</br>
+/api/auth/login </br>
 `
 {
     "username":"username",
