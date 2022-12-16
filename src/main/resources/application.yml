@@ -1,0 +1,27 @@
+server:
+  port: 4000
+#  servlet:
+#    context-path: /api
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ${USERNAME}
+    password: ${PASSWORD}
+    url: ${URL}
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    database: POSTGRESQL
+token:
+  jwt:
+    secret: ${SECRET}
+    expiration: 7200000
+#service:
+#  payment:
+#    url: ${PAYMENT_SERVICE}
+#  user:
+#    uri: ${USER_SERVICE}
+#upload:
+#  path: ${FILE_PATH}
